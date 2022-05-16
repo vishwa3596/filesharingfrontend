@@ -4,10 +4,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    screens: {
-      'tablet': '640px',
-      'desktop': '1300px'
-    },
+    fontFamily: {
+      'sans': ['Roboto'],
+      'text': ['Poppins']
+    }
   },
   plugins: [],
 }

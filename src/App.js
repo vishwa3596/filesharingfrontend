@@ -1,10 +1,13 @@
-import Landing from "./component/landing";
+import { BrowserRouter } from "react-router-dom";
+import Routers from "./Routers";
 
 function App() {
 
   return (
-    <div>
-      <Landing />
+    <div className="w-screen h-screen">
+      <BrowserRouter>
+        <Routers />
+      </BrowserRouter>
     </div>
   );
 }
