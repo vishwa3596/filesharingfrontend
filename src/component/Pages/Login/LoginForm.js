@@ -5,7 +5,7 @@ const LoginForm = () => {
             <div className="sm:w-3/5 md:w-3/5 lg:w-2/5 xl:w-2/5 2xl:w-1/4 flex flex-col">
                 <div className="w-full border-2 rounded-lg py-3 px-3 flex flex-col">
                     <div className="w-full px-3 py-3">
-                        <p className="text-sm font-semibold font-Roboto mb-1">
+                        <p className="text-sm font-semibold font-Fira mb-1">
                                 Username or email
                         </p>
                         <input 
@@ -17,11 +17,11 @@ const LoginForm = () => {
                     <div className="w-full px-3 py-3">
                         <div className="w-full flex flex-row justify-between items-center">
                             <p 
-                                className="text-sm text-left font-semibold font-Roboto mb-1">
+                                className="text-sm text-left font-semibold font-Fira mb-1">
                                     Password
                             </p>
                             <div className="cursor-pointer">
-                                <p className="text-xs text-left font-semibold font-Roboto text-indigo-700 mb-1">
+                                <p className="text-xs text-left font-semibold font-Inconsolata text-indigo-700 mb-1">
                                     Forgot Password?
                                 </p>
                             </div>
@@ -46,15 +46,15 @@ const LoginForm = () => {
                         </label>
                     </div>
                     <div className="w-full px-3 pt-1 pb-3">
-                        <button className="w-full px-3 py-3 rounded-md shadow-md bg-green-300 font-semibold font-Roboto">
+                        <button className="w-full px-3 py-3 rounded-md shadow-md bg-green-300 font-semibold font-Inconsolata">
                             Sign In
                         </button>
                     </div>
                 </div>
                 <div className="w-full border-2 rounded-lg py-3 px-3 mt-3 flex flex-row justify-center items-center">
-                    <p className="text-sm text-left font-medium font-Roboto">New to Bag's?</p>
+                    <p className="text-sm text-left font-medium font-Fira">New to Bag's?</p>
                     <div className="cursor-pointer pl-1">
-                        <p className="text-sm text-left font-semibold font-Roboto text-indigo-700">Create Account</p>
+                        <p className="text-sm text-left font-semibold font-Inconsolata text-indigo-700">Create Account</p>
                     </div>
                 </div>
             </div>    

@@ -5,26 +5,26 @@ const Header = () => {
     return (
         <div className="w-full h-24 flex flex-row justify-center items-center">
             <div className="w-3/5 h-full flex flex-row items-center">
-                <p className="w-24 text-2xl font-semibold"> Bag's </p>
+                <p className="w-24 text-2xl font-bold font-Fira"> Bag's </p>
                 <div className="w-11/12 px-3 flex flex-row justify-between items-center">
                     <div className="w-fit px-3 flex flex-row justify-between">
-                        <p className="text-md pr-3 text-left font-light">Features</p>
-                        <p className="text-md px-3 text-left font-light">Pricing</p>
-                        <p className="text-md px-3 text-left font-light">Community</p>
+                        <p className="text-sm pr-3 text-left font-light font-Fira">Features</p>
+                        <p className="text-sm px-3 text-left font-light font-Fira">Pricing</p>
+                        <p className="text-sm px-3 text-left font-light font-Fira">Community</p>
                     </div>
                     <div>
-                        <p className="text-md font-light cursor-pointer">
+                        <p className="text-sm font-light cursor-pointer font-Fira">
                             <Link to="/auth/login">
                                 Sign in
                             </Link>
                         </p>
                     </div>
                 </div>
-                <button className="w-24 px-3 py-2 bg-indigo-300 rounded-lg shadow-sm">
-                    <Link to="/auth/signup">
+                <Link to="/auth/signup">
+                    <button className="w-24 px-3 py-2 bg-emerald-300 rounded-lg shadow-md font-Inconsolata font-semibold text-md">
                         Sign up
-                    </Link>
-                </button>
+                    </button>
+                </Link>
             </div>
         </div>
     )

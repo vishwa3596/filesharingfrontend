@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      Roboto: ['Roboto Mono', 'monospace']
+      Roboto: ['Roboto Mono', 'monospace'],
+      Fira: ['Fira Mono', 'monospace'],
+      Inconsolata: ['Inconsolata', 'monospace']
     }
   },
   plugins: [],

@@ -8,7 +8,7 @@ const Signupform = () => {
                 <div className="w-full px-3 py-3 border-2 rounded-md flex flex-col">
                     <div className="w-full px-3 py-3">
                         <p 
-                            className="text-sm font-semibold font-Roboto mb-1 text-slate-900">
+                            className="text-sm font-semibold font-Fira mb-1 text-slate-900">
                                 Primary Email
                         </p>
                         <input 
@@ -18,7 +18,7 @@ const Signupform = () => {
                     </div>
                     <div className="w-full px-3 py-3">
                         <p 
-                            className="text-sm font-semibold font-Roboto mb-1 text-slate-900">
+                            className="text-sm font-semibold font-Fira mb-1 text-slate-900">
                                 Password
                         </p>
                         <label className="flex flex-row justify-between items-center w-full border rounded-md border-indigo-200 px-2 py-3 focus:border-fuchsia-800">
@@ -38,7 +38,7 @@ const Signupform = () => {
                     </div>
                     <div className="w-full px-3 py-3">
                         <p 
-                            className="text-sm font-semibold font-Roboto mb-1 text-slate-900">
+                            className="text-sm font-semibold font-Fira mb-1 text-slate-900">
                                 Confirm Password
                         </p>
                         <label className="appearance-none flex flex-row justify-between items-center w-full border rounded-md border-indigo-200 px-2 py-3 focus:border-fuchsia-800">
@@ -57,7 +57,7 @@ const Signupform = () => {
                     </div>
                     <div className="w-full px-3 py-3">
                         <p 
-                            className="text-sm font-semibold font-Roboto mb-1 text-slate-900">
+                            className="text-sm font-semibold font-Fira mb-1 text-slate-900">
                                 Public Username
                         </p>
                         <label className="flex flex-row justify-between items-center w-full border rounded-md border-indigo-200 px-2 py-3 focus:border-fuchsia-800">
@@ -72,16 +72,16 @@ const Signupform = () => {
                         </label>
                     </div>
                     <div className="w-full px-3 pt-1 pb-3">
-                        <button className="w-full px-3 py-3 rounded-md shadow-md bg-green-300 font-semibold font-Roboto text-slate-900" onClick={() => setLoading(prevState => !prevState)}>
+                        <button className="w-full px-3 py-3 rounded-md shadow-md bg-green-300 font-semibold font-Inconsolata text-slate-900" onClick={() => setLoading(prevState => !prevState)}>
                             
                             Sign Up
                         </button>
                     </div>
                 </div>
                 <div className="w-full px-3 py-3 mt-3 border-2 rounded-md flex flex-row justify-center items-center">
-                    <p className="text-sm text-left font-medium font-Roboto">Existing Account?</p>
+                    <p className="text-sm text-left font-medium font-Fira">Existing Account?</p>
                     <div className="cursor-pointer pl-1">
-                        <p className="text-sm text-left font-semibold font-Roboto text-indigo-700">Sign in</p>
+                        <p className="text-sm text-left font-semibold font-Inconsolata text-indigo-700">Sign in</p>
                     </div>
                 </div>
             </div>
